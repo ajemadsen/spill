@@ -1,5 +1,5 @@
 # startup
-My project for CS 260.
+My totally cool project for CS 260.
 
 Change from my dev environment.
 
