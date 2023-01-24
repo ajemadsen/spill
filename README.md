@@ -1,5 +1,5 @@
 # startup
-My awesome project for CS 260.
+My totally cool and awesome project for CS 260.
 
 Change from my dev environment.
 
