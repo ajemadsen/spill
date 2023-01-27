@@ -15,5 +15,12 @@ This was a fun assignment! I've been using VS Code for one of my other classes t
 
 Have you ever had the desire to keep a journal, but had difficultly actually following through because of the chore of writing? Or maybe because you just don't have the time? I've felt that way too, and that is what led me to want to create a virtual all-in-one journal. This journal allows you to document your life in whatever way you want, and to have it all in one place. Whether you're short on time and want to voice-record yourself telling a story, or simply attach photos when words fail. It will even notify others on the app when you have submitted an entry to keep yourself accountable and to inspire others to record their lives as well. Keeping a journal shouldn't be hard-- and now, it doesn't have to be!
 
+# Key Features 
+1. Text Editor
+2. Image uploading
+3. Audio recording 
+4. Entries sorted by day
+5. Notification system when an entry is submitted
+
 # Sketches
 
