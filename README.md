@@ -23,4 +23,4 @@ Have you ever had the desire to keep a journal, but had difficultly actually fol
 5. Notification system when an entry is submitted
 
 # Sketches
-
+![Startup SKetches](startupsketches.jpg)
