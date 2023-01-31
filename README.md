@@ -24,3 +24,6 @@ Have you ever had the desire to keep a journal, but had difficultly actually fol
 
 # Sketches
 ![Startup SKetches](startupsketches.jpg)
+
+# IP Address
+http://3.14.39.141/
