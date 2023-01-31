@@ -25,5 +25,6 @@ Have you ever had the desire to keep a journal, but had difficultly actually fol
 # Sketches
 ![Startup SKetches](startupsketches.jpg)
 
-# IP Address
+# Site Info
 http://3.14.39.141/
+http://andijem.click
