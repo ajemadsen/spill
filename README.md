@@ -26,5 +26,6 @@ Have you ever had the desire to keep a journal, but had difficultly actually fol
 ![Startup SKetches](startupsketches.jpg)
 
 # Site Info
-http://3.14.39.141/
+http://3.14.39.141
+
 http://andijem.click
