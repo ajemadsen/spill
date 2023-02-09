@@ -29,3 +29,7 @@ Have you ever had the desire to keep a journal, but had difficultly actually fol
 http://3.14.39.141
 
 http://andijem.click
+
+# Notes
+
+2/8/2023: Today I had such a struggle getting my Simon to commit and to deploy its files to my subdomain. Thankfully, I thought to start my simon-creating over and was able to reimplement the files in the correct way. The thing that I learned, which sounds silly when I state it like it is news, is that you cannot commit to a repository if you did not clone it in the first place. Even if you have a folder in your IDE, it will not push to that github repository unless that folder got there from cloning. 
