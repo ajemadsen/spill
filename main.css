@@ -13,7 +13,8 @@ menu {
     display: flex; 
     flex-direction: row !important; 
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: space-evenly; 
+    
 }
 
 main {
@@ -21,21 +22,104 @@ main {
     display: flex; 
     flex-direction: column;
     align-items: center; 
-    justify-content: space-around;
 }
 
 .navbar-brand {
     margin-left: 1em; 
-    border: solid white thin; 
+    border: solid #f3f2ce; thin; 
     padding: 1em 1.5em; 
+    color: #f3f2ce !important;
 }
 
-
+.nav-item a {
+    color: #f3f2ce !important;
+}
+.nav-link.active {
+    font-weight: bold;
+}
 
 
 footer {
     flex: 0 30px; 
+    color: #f3f2ce !important;
 }
 footer a {
     float: right; 
+    color: #f3f2ce !important;
+}
+
+.day-header {
+    margin: 3em; 
+    background: #f3f2ce;
+    padding: 2vh 10vh; 
+    border-radius: 30px; 
+}
+
+.entry {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex: 1 40%;
+}
+
+.entry-content {
+    margin: 0 10%; 
+    max-width: 100%;
+    border: solid #dfdebd thin;
+    padding: 2em;
+    height: 100%;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.entry-menu {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    margin: 2em; 
+    width: 100%; 
+    height: 100%;
+}
+
+.btn {
+    background-color: #f3f2ce !important;
+    box-shadow: 0 2px 2px 0 #dfdebd;
+}
+
+.btn:hover {
+    background-color:#ecebc8 !important;
+}
+
+.btn-secondary {
+    box-shadow: none !important; 
+    background-color: #6c757d !important;
+}
+.btn-secondary:hover {
+    background-color:#7c858d !important;
+}
+
+
+@media (orientation: landscape) {
+    .entry {
+        flex-direction: row !important;
+        justify-content: space-evenly;
+        margin: 2em; 
+
+    }
+    .entry-content {
+        margin-left: 1%; 
+        margin-right: 2em;
+    }
+
+    .entry-menu {
+        display: grid; 
+        grid-template-columns: 1fr;
+        gap: 15px; 
+        margin: 2em; 
+        width: 100%; 
+        height: 100%;
+    }
+    
+
+
 }
