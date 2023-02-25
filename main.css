@@ -26,9 +26,11 @@ main {
 
 .navbar-brand {
     margin-left: 1em; 
-    border: solid #f3f2ce; thin; 
+    border: solid #f3f2ce thin; 
     padding: 1em 1.5em; 
     color: #f3f2ce !important;
+    border-radius: 8px;
+    font-weight: bold; 
 }
 
 .nav-item a {
@@ -52,7 +54,7 @@ footer a {
     margin: 3em; 
     background: #f3f2ce;
     padding: 2vh 10vh; 
-    border-radius: 30px; 
+    border-radius: 8px; 
 }
 
 .entry {
@@ -68,7 +70,7 @@ footer a {
     border: solid #dfdebd thin;
     padding: 2em;
     height: 100%;
-    border-radius: 15px;
+    border-radius: 8px;
     text-align: left;
 }
 
