@@ -103,17 +103,21 @@ footer a {
     align-items: center;
     margin-right: 7em !important;
     margin-left: 7em;
+    margin-top: 10%;
 }
 
 .summary {
-    max-width: 60%;
-    margin: 3em; 
-    background: #f3f2ce;
-    padding: 2vh 10vh; 
-    border-radius: 8px; 
-    border: solid #adb5bd thin;
-    align-content: center;
-    
+    margin: 0px !important; 
+    max-height: 400px;
+}
+
+/******************************************Community***************************/
+.community {
+    max-width: 80vw; 
+    text-align: left;
+}
+.report {
+    padding: 20px !important;
 }
 
 
