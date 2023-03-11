@@ -37,27 +37,20 @@
     </header>
     
     <main class="container-fluid bg-light text-dark text-center">
-      <div class="day-header">
-        <h3> January 26 </h3>
-        <h4> You've journaled 3 days in a row... Keep going! </h4>
+      <div class="day-header day">
+        <div id="todayDate" class="todayDate"></div>
+        <div id="updateStreak" class="updateStreak"></div>
       </div>  
 
       <div class="entry">
-        <div class="entry-menu"> 
-          <button class="btn" onclick="location.href='type.html'"> Type </button>
-          <button class="btn" onclick="location.href='photo.html'"> Photo </button>
-          <button class="btn" onclick="location.href='voice.html'"> Voice </button>
-          <button class="btn" onclick="location.href='scan.html'"> Scan </button>
-        </div>
         <div class="entry-content">
-          <p> Today was awesome! Although it was so busy, I was going crazy. 
-            It's unreal how your day can fill up as full and packed as mine 
-            was! Although, I know other people have it way worse than me--all 
-            I had to worry about was making sure I got to class on time and 
-            got all my homework done. I long for the day that the phrase, 
-            "Dangit, I wish I could, but I have homework" is completely gone 
-            from my vocabulary.
-          </p>
+          <textarea type="type" class="content" id="content" placeholder="Tell me everything..."></textarea>
+        </div>
+        <div class="entry-menu"> 
+          <button class="btn" onclick="day.save('#content')"> Save </button>
+          <!--<button class="btn" onclick="location.href='photo.html'"> Photo </button>
+          <button class="btn" onclick="location.href='voice.html'"> Voice </button>
+          <button class="btn" onclick="location.href='scan.html'"> Scan </button>-->
         </div>
       </div>
     </main>
@@ -70,6 +63,8 @@
           href="https://github.com/ajemadsen/spill">GitHub
         </a>
       </div>
+      <script src="today.js"></script>
     </footer>
+
   </body>
 </html>
