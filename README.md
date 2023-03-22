@@ -33,3 +33,10 @@ http://andijem.click
 # Notes
 
 2/8/2023: Today I had such a struggle getting my Simon to commit and to deploy its files to my subdomain. Thankfully, I thought to start my simon-creating over and was able to reimplement the files in the correct way. The thing that I learned, which sounds silly when I state it like it is news, is that you cannot commit to a repository if you did not clone it in the first place. Even if you have a folder in your IDE, it will not push to that github repository unless that folder got there from cloning. 
+
+3/22/2023: I did the Simon Service today! Some of it was not intuitive at all but I think I understand for the most part what is going on. 
+*api calls that are handled in the index.js can be called from .js files in public. 
+*classes can be added to objects through "__.classList.add('___'); "
+*fetch returns a promise that returns data about the fetch call
+*JSON.stringify(___) turns a json object into a string to be set in localStorage. 
+*when services fail, always keep the localStorage methods implemented.
